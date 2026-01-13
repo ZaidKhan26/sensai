@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.49.0",
-    "@clerk/nextjs": "^6.33.0",
+    "@clerk/nextjs": "6.33.0",
     "@clerk/themes": "^2.4.22",
     "@google/generative-ai": "^0.24.1",
     "@hookform/resolvers": "^5.2.2",
@@ -53,7 +53,7 @@
     "@types/aws-lambda": "^8.10.159",
     "@types/html2pdf.js": "^0.10.0",
     "eslint": "^9",
-    "eslint-config-next": "15.5.4",
+    "eslint-config-next": "15.5.6",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.4.0"
   }
