@@ -31,6 +31,8 @@
     "date-fns": "^4.1.0",
     "html2pdf.js": "^0.10.2",
     "inngest": "^3.29.3",
+    "jspdf": "^4.0.0",
+    "jspdf-autotable": "^5.0.7",
     "lucide-react": "^0.471.1",
     "next": "15.1.4",
     "next-themes": "^0.4.4",
