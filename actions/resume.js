@@ -6,7 +6,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { revalidatePath } from "next/cache";
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-robotics-er-1.5-preview" });
+const model = genAI.getGenerativeModel({ model: "gemma-3-27b-it" });
 
 export async function saveResume(content) {
   const { userId } = await auth();

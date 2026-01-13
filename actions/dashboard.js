@@ -6,7 +6,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({
-    model: "gemini-robotics-er-1.5-preview",
+    model: "gemma-3-27b-it",
 })
 
 export const generateAIInsights = async (industry) => {
